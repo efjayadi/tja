@@ -171,7 +171,7 @@ a {
 }
 
 a:hover {
-  color: #f53900;
+  color: #ffbf00;
   text-decoration: none;
 }
 
@@ -11772,4 +11772,60 @@ textarea.form-control {
 
 .curve6{
   border-radius: 6px;
+}
+
+.hitam2{
+  width:100%;
+  background: #222;
+  position: absolute;
+}
+
+.whatbutt{
+  position: fixed;
+  bottom:1em;
+  right:0.8em;
+  background: #07227A;
+  color:#fff;
+  border-radius:99px;
+  text-align:center;line-height:1.8em;width:1.8em;height: 1.8em;font-size:28px;
+  animation-duration: 2s;
+}
+.whatbutt:hover{
+  background: #051D6B;
+  color: #e1e1e1;
+}
+
+.tuput{
+  color:#fff;
+}
+
+.whatbutt .whattip {
+  visibility: hidden;
+  width:9em;
+  background-color: #ffbf00;
+  color: #222;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  top: 8px;
+  border-radius: 3px;
+  right: 120%;
+  font-size: 12px;
+  font-weight: 600;
+  line-height:2.4em;
+  padding:2px;
+}
+
+.whatbutt .whattip::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent #ffbf00;
+}
+.whatbutt:hover .whattip {
+  visibility: visible;
 }
