@@ -31,3 +31,27 @@
 .delay8{
     transition-delay: 800ms;
 }
+
+@media (min-width: 576px) {
+    .hidden {
+        filter: blur(0);
+  }
+  
+  @media (min-width: 768px) {
+    .hidden {
+        filter: blur(0);
+  }
+  }
+  
+  @media (min-width: 992px) {
+    .hidden {
+        filter: blur(0);
+  }
+  }
+  
+  @media (min-width: 1200px) {
+    .hidden {
+        filter: blur(0);
+  }
+}
+}
