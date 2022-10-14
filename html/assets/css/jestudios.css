@@ -5065,7 +5065,7 @@ input[type="button"].btn-block {
           flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: #ffffff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 6px;
@@ -11798,6 +11798,10 @@ textarea.form-control {
 
 .tuput{
   color:#fff;
+}
+
+.baput{
+  background: red;
 }
 
 .whatbutt .whattip {
