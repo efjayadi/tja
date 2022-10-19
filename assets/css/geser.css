@@ -1,0 +1,20 @@
+.geser{
+    display:flex;
+    overflow-x:auto;
+    width: 100%;
+}
+.geser:hover{
+    cursor: grab;
+}
+.geser:active{
+    cursor: grabbing;
+}
+.geser::-webkit-scrollbar{
+    height:4px;
+}
+.geser::-webkit-scrollbar:hover{
+    background: #fff;
+}
+.geser::-webkit-scrollbar-thumb{
+    background:#f1f1f1;
+}
